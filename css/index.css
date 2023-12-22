@@ -1,0 +1,166 @@
+
+.acerca-img{
+    background-size: cover;
+}
+.btn.btn-form{
+    width: 100%; 
+    margin-bottom: 2%;
+    background-color: yellowgreen; 
+    color: white
+}
+.btn.btn-vta{
+    width: 35%;
+    margin-bottom:8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: yellowgreen; 
+    color: white
+
+}
+.card-body {
+   align-items:start;
+}
+
+ .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 700px; 
+    width: 100%;   
+   
+}
+
+.copyright {
+    color:aquamarine;
+    text-decoration: none;
+    
+}
+
+.descuentos {
+ display: flex;
+    justify-content: center; 
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+
+
+.footer-bg {  
+    display: flex;
+    justify-content: center;  
+    background-color: #1E5170;   
+      
+}
+
+.footer-bg a{
+   color: white;
+   text-decoration: none;
+}
+
+.footer-menu{
+    margin-left: 15vw;
+    width: 15px;
+    display: flex;    
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.hero{
+    background: url("../img/ba1.jpg");  
+    background-size:cover;
+    position:relative; 
+  
+
+   }
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:rgba(0,0,0,0.5);
+   
+}
+.hero-description {
+    position: relative;    
+    margin-top: 18%;
+    color:white;
+    text-align: right; 
+    width: 45%;
+    
+}
+
+
+.logo {
+    width: 96px;
+    vertical-align: middle;
+   margin-left: 5%;
+}
+
+.navbar  {    
+    background-color: #353A40;    
+}
+
+.navbar .navbar-nav  {
+    justify-content: space-between; 
+    /* width: 100%; */
+   
+}
+
+.navbar .navbar-collapse {
+    align-items: end;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+
+.navbar .nav-link {
+   color:rgb(128, 124, 124);
+ 
+
+
+}
+
+.navbar .nav-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .nav-link.tickets {
+    color:#28A745;
+ }
+ 
+ .navbar .nav-link.tickets:hover {
+     color: yellowgreen;
+     cursor: pointer;
+}
+
+.navbar .nav-text{
+    color: white;
+ 
+}
+
+.navbar .nav-text:hover{
+    color:yellow;
+    cursor: pointer;
+}
+
+.oradores-background {
+    background-color: #f5f375;
+}
+
+
+.row.card-container {
+    display:flex;
+    justify-content:space-evenly;
+    margin-left: 3%;
+ }
+
+ .venta {   
+    text-align: center;
+   
+ }
+    
+
+

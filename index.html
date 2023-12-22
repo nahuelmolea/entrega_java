@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf. Bs.As. | CaC 23545 | Bianca Stork</title>
+    <link rel="stylesheet" href="./css/index.css">
+     
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <header>      
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" >
+      <div class="container-fluid ">
+        <img src="./img/codoacodo.png" class="logo codo a codo"/>
+        <a class="navbar-brand nav-text" href="./index.html">Conf Bs As</a>
+        <button class="navbar-toggler" 
+             type="button" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#navbarNav" 
+             aria-controls="navbarNav" 
+             aria-expanded="true" 
+             aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav "><li class="nav-item"><a class="nav-link" href="#">La Conferencia</a></li>
+           <li class="nav-item"><a class="nav-link" href="#oradores">Los Oradores</a></li>
+           <li class="nav-item"><a class="nav-link" href="#acerca">El Lugar y La Fecha</a></li>
+           <li class="nav-item"><a class="nav-link " href="#formulario">Conviertete en Orador</a></li>
+           <li class="nav-item"><a class="nav-link tickets" href="./html/tickets.html">Comprar Tickets</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero"> 
+      <div class="container container-lg">  
+        <div class="hero-description">     
+          <h3>Conf Bs As</h3>
+           <p>
+            Bs As llega por primera vez a Argentina. Un Evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+           </p>
+           <button type="button" class="btn btn-outline-light mb-2 mr-2" onclick="location.href='#formulario'">Quiero ser orador </button>
+           <button  type="button" class="btn btn-success px-3 mb-2 mr-2" onClick="location.href='./html/tickets.html'"> Comprar Tickets </button>
+        </div>
+      </div>
+    </section>
+    <section  id="oradores">      
+      <p class="text-center mt-3 mb-0">CONOCE A LOS</p>
+      <h3 class="text-center mt-0">ORADORES</h3>
+      <div class="row card-container">
+        <div class="col-10 col-lg-4 mb-3">
+          <div class="card w-auto">
+            <img src="./img/steve.jpg" alt="Steve Jobs">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">JavaScript</span>
+              <span class="badge bg-info">React</span>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia vitae illum maiores laudantium velit, minus quae, tempora, facere dolor cum. Cupiditate veniam nostrum laborum, repellendus libero doloremque quisquam repudiandae?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-4 mb-3">
+          <div class="card wauto" >
+            <img src="./img/bill.jpg" alt="Bill Gates">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">JavaScript</span>
+              <span class="badge bg-info">React</span>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia vitae illum maiores laudantium velit, minus quae, tempora, facere dolor cum. Cupiditate veniam nostrum laborum, repellendus libero doloremque quisquam repudiandae?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-4 mb-3">
+          <div class="card w-auto" >
+            <img src="./img/ada.jpeg" alt="Ada Lovelace">
+            <div class="card-body">
+              <span class="badge bg-secondary">Negocios</span>
+              <span class="badge bg-danger">Startups</span>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia vitae illum maiores laudantium velit, minus quae, tempora, facere dolor cum. Cupiditate veniam nostrum laborum, repellendus libero doloremque quisquam repudiandae?</p>
+            </div>
+          </div>
+        </div>             
+      </div>
+    </section>
+    <section class="mt-5" id="acerca">
+      <div class="card bg-dark text-white mb-3 border-0 rounded-0">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img
+                src="./img/honolulu.jpg"
+                class="img-fluid"
+                alt="Honolulu"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Bs As - Octubre</h5>
+              <p class="card-text">
+                Buenos Aires es la provincia y localidad más grande del estado
+                de Argentina, en los Estados Unidos. Honolulu es la más sureña
+                de entre las principales ciudades estadounidenses. Aunque el
+                nombre de Honolulu se refiere al área urbana en la costa
+                sureste de la isla de Oahu, la ciudad y condado de Honolulu
+                han formado una ciudad-condado consolidada que cubre toda la
+                ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
+              </p>
+              <a href="#" class="btn btn-outline-light">Conocé más</a>
+            </div>
+          </div>
+        </div>
+      </div>    
+     </section>
+     <section id="formulario" class="container-fluid"> 
+      <div class="row justify-content-center">    <!--centra horizontalmente el formulario-->
+       <div class="col-md-6"> <!--limitar el ancho del formulario a 6 columnas-->
+        <p class="text-center mt-3 mb-0">CONVIÉRTETE EN UN</p>
+        <h3 class="text-center mt-0">ORADOR</h3>
+        <p class="text-center mt-3 mb-0">Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de que quieres hablar!</p>
+        <!--Formulario-->
+        <form>
+         <div class="row mb-3 mt-2">
+          <div class="col">
+            <input type="text" 
+            class="form-control" 
+            placeholder="Nombre" 
+            aria-label="Nombre" 
+            id="nombre"
+            />
+          </div>
+          <div class="col">
+            <input type="text" 
+            class="form-control" 
+            placeholder="Apellido" 
+            aria-label="Apellido"
+            id="apellido" 
+            />
+          </div>
+         </div>
+         <div class="row mb-3">
+          <div class="row mb-3 mt-2">
+            <div class="col">
+              <input type="text" 
+              class="form-control" 
+              placeholder="Email" 
+              aria-label="Email" 
+              id="mail"
+              />
+            </div>
+            <div class="col">
+              <textarea
+              id="tema"
+                class="form-control"
+                placeholder="Sobre qué quieres hablar?"
+                aria-label="Sobre qué quieres hablar?"
+                rows="5"
+              ></textarea>
+              <span>Recuerda incluir un titulo para tu charla.</span>
+            </div>
+          </div>
+          <button id="btnGrabar" 
+          type="button" 
+          class="btn btn-success"
+          onclick="window.location.href='./html/oradores.html'"> GRABAR</button>
+          <button 
+          type = "button"
+          class="btn btn-warning"
+          onclick= "window.location.href='./html/oradores.html'">LISTADO ORADORES</button>
+        </form>
+    </div>
+      </div>
+     </section>     
+     
+    </main>
+    <footer class="container-fluid footer-bg">
+      <div class="row">
+        <span class="col"></span>
+        <ul class="list-inline col-10  col-lg-12 text-center">
+              <li class="list-inline-item col"><a href="">Preguntas frecuentes</a></li>
+              <li class="list-inline-item col"><a href="">Contáctanos</a></li>
+              <li class="list-inline-item col"><a href="">Prensa</a></li>
+              <li class="list-inline-item col"><a href="">Conferencias</a></li>
+              <li class="list-inline-item col"><a href="">Términos y condiciones</a></li>
+              <li class="list-inline-item col"><a href="">Privacidad</a></li>
+              <li class="list-inline-item col"><a href="">Estudiantes</a></li>
+        </ul>
+        <span class="col"></span>
+        <hr class="copyright">
+        <a class="text-center mb-2">
+         #EQUIPO 5 : GOMEZ PIZARRO - GONZALEZ - MORENO - OLEA - STORK</a>
+      </div>
+      </div>
+           
+    </footer>
+
+
+<!-- Boostrap CDN -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="../js/oradores.js"></script>
+  
+</body>
+</html>
